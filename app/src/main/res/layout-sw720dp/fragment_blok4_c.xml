@@ -1,0 +1,964 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/b4r57_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4d_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r57_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r57_rating"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#00afef"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r57_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="57. Saya rela meminjam uang untuk membeli barang yang diinginkan"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r57_ratingbar"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="10"
+                android:stepSize="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" />
+
+        <LinearLayout
+            android:id="@+id/b4r58_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4d_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r58_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r58_rating"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#00afef"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r58_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="58. Saya membeli setiap barang-barang yang saya suka"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r58_ratingbar"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="10"
+                android:stepSize="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" />
+
+        <LinearLayout
+            android:id="@+id/b4r59_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4d_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r59_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r59_rating"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#00afef"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r59_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="59. Saya lebih memilh membeli barang bermerk daripada barang yang tidak bermerk dengan kualitas yang sama"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r59_ratingbar"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="10"
+                android:stepSize="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b4r60_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4d_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r60_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r60_rating"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#00afef"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r60_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="60. Mengkonsumsi minuman beralkohol bisa membuat perasaan menjadi lebih senang"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r60_ratingbar"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="10"
+                android:stepSize="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" />
+
+        <LinearLayout
+            android:id="@+id/b4r61_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4d_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r61_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r61_rating"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#00afef"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r61_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="61. Pergaulan antara laki-laki dan perempuan tidak perlu dibatasi"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r61_ratingbar"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="10"
+                android:stepSize="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b4r62_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4d_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r62_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r62_rating"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#00afef"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r62_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="62. Menurut saya menabung itu penting"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r62_ratingbar"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="10"
+                android:stepSize="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b4r63_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4d_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r63_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r63_rating"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#00afef"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r63_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="63. Saya mudah tertarik terhadap dengan barang yang dijual dengan harga murah"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r63_ratingbar"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="10"
+                android:stepSize="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"/>
+
+        <LinearLayout
+            android:id="@+id/b4r64_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4d_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r64_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r64_rating"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#00afef"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r64_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="64. Saya selalu ingin membeli barang-barang keluaran terbaru"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r64_ratingbar"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="10"
+                android:stepSize="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"/>
+
+        <LinearLayout
+            android:id="@+id/b4r65_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4d_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r65_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r65_rating"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#00afef"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r65_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="65. Saya selalu ingin membeli barang-barang yang diiklankan"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r65_ratingbar"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="10"
+                android:stepSize="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b4r66_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4d_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r66_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r66_rating"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#00afef"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r66_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="66. Saya lebih suka berbelanja daripada menabung"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r66_ratingbar"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="10"
+                android:stepSize="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" />
+
+        <LinearLayout
+            android:id="@+id/b4r67_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4d_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r67_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r67_rating"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#00afef"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r67_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="67. Saya lebih suka berada di rumah daripada jalan-jalan di pertokoan/mall"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r67_ratingbar"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="10"
+                android:stepSize="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"/>
+
+        <LinearLayout
+            android:id="@+id/b4r68_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4d_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r68_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r68_rating"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#00afef"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r68_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="68. Saya merasa percaya diri jika memakai barang-barang bermerek"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r68_ratingbar"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="10"
+                android:stepSize="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"/>
+
+        <LinearLayout
+            android:id="@+id/b4r69_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4d_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r69_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r69_rating"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#00afef"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r69_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="69. Saya suka mengikuti perkembangan model pakaian terbaru"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r69_ratingbar"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="10"
+                android:stepSize="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b4r70_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4d_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r70_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r70_rating"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#00afef"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r70_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="70. Menurut saya, memakai barang-barang mewah akan meningkatkan status sosial seseorang"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r70_ratingbar"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="10"
+                android:stepSize="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"/>
+
+        <LinearLayout
+            android:id="@+id/b4r71_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4d_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r71_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r71_rating"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#00afef"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r71_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="71. Saya hanya membeli barang yang benar-benar dibutuhkan"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r71_ratingbar"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="10"
+                android:stepSize="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b4r72_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4d_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r72_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r72_rating"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#00afef"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r72_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="72. Saya harus menghemat pemakaian energi (bahan bakar, listrik, air, dll)"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r72_ratingbar"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="10"
+                android:stepSize="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b4r73_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4d_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r73_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r73_rating"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#00afef"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r73_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="73. Saya lebih memilih memakan makanan yang dimasak sendiri daripada membeli di luar"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r73_ratingbar"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="10"
+                android:stepSize="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/b4_button_next"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/tombol_next"
+                android:padding="10dp"
+                android:text="Next"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

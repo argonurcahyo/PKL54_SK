@@ -1,0 +1,773 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r1_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r1_ratingvalue"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#f44336"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="@string/B4R1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r1_ratingBar"
+                style="@style/StarRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:isIndicator="false"
+                android:numStars="10"
+                android:stepSize="1" />
+
+            <TextView
+                android:id="@+id/b4r1_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r2_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r2_ratingvalue"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#f44336"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="@string/B4R2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r2_ratingBar"
+                style="@style/StarRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:isIndicator="false"
+                android:numStars="10"
+                android:stepSize="1" />
+
+            <TextView
+                android:id="@+id/b4r2_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r3_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r3_ratingvalue"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#f44336"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="@string/B4R3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r3_ratingBar"
+                style="@style/StarRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:isIndicator="false"
+                android:numStars="10"
+                android:stepSize="1" />
+
+            <TextView
+                android:id="@+id/b4r3_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r4_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r4_ratingvalue"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#f44336"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="@string/B4R4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r4_ratingBar"
+                style="@style/StarRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:isIndicator="false"
+                android:numStars="10"
+                android:stepSize="1" />
+
+            <TextView
+                android:id="@+id/b4r4_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r5_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r5_ratingvalue"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#f44336"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="@string/B4R5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r5_ratingBar"
+                style="@style/StarRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:isIndicator="false"
+                android:numStars="10"
+                android:stepSize="1" />
+
+            <TextView
+                android:id="@+id/b4r5_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r6_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r6_ratingvalue"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#f44336"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="@string/B4R6"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r6_ratingBar"
+                style="@style/StarRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:isIndicator="false"
+                android:numStars="10"
+                android:stepSize="1" />
+
+            <TextView
+                android:id="@+id/b4r6_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r8_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r8_ratingvalue"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#f44336"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="@string/B4R8"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r8_ratingBar"
+                style="@style/StarRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:isIndicator="false"
+                android:numStars="10"
+                android:stepSize="1" />
+
+            <TextView
+                android:id="@+id/b4r8_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r9_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r9_ratingvalue"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#f44336"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="@string/B4R9"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r9_ratingBar"
+                style="@style/StarRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:isIndicator="false"
+                android:numStars="10"
+                android:stepSize="1" />
+
+            <TextView
+                android:id="@+id/b4r9_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r10_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r10_ratingvalue"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#f44336"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="@string/B4R10"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r10_ratingBar"
+                style="@style/StarRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:isIndicator="false"
+                android:numStars="10"
+                android:stepSize="1" />
+
+            <TextView
+                android:id="@+id/b4r10_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r11_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r11_ratingvalue"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#f44336"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="@string/B4R11"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r11_ratingBar"
+                style="@style/StarRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:isIndicator="false"
+                android:numStars="10"
+                android:stepSize="1" />
+
+            <TextView
+                android:id="@+id/b4r11_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r12_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r12_ratingvalue"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#f44336"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="@string/B4R12"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r12_ratingBar"
+                style="@style/StarRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:isIndicator="false"
+                android:numStars="10"
+                android:stepSize="1" />
+
+            <TextView
+                android:id="@+id/b4r12_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r13_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r13_ratingvalue"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#f44336"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="@string/B4R13"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r13_ratingBar"
+                style="@style/StarRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:isIndicator="false"
+                android:numStars="10"
+                android:stepSize="1" />
+
+            <TextView
+                android:id="@+id/b4r13_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r14_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/b4r14_ratingvalue"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#f44336"
+                    android:textSize="@dimen/rating_textSize"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="@string/B4R14"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <RatingBar
+                android:id="@+id/b4r14_ratingBar"
+                style="@style/StarRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:isIndicator="false"
+                android:numStars="10"
+                android:stepSize="1" />
+
+            <TextView
+                android:id="@+id/b4r14_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/b4_button_next"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/tombol_next"
+                android:padding="10dp"
+                android:text="@string/button_Next"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

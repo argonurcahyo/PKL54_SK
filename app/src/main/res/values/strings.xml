@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">PKL54</string>
+    <string name="title_activity_splash_screen_imp">SplashScreenImp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="login">Login</string>
+    <string name="splash">Splash</string>
+    <string name="nim_hint">NIM</string>
+    <string name="pass_hint">Password</string>
+    <string name="login_text">Login</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_questionnaire">QuestionnaireActivity</string>
+
+    <string name="next_blok">Next</string>
+
+    <!-- Pertanyaan Blok 1 -->
+    <string name="B1R1">1. Kabupaten/Kota :</string>
+    <string name="B1R2">2. Kecamatan :</string>
+    <string name="B1R3">3. Desa/Kelurahan :</string>
+    <string name="B1R4">4. Klasifikasi Desa/Kelurahan :</string>
+    <string name="B1R4_1">Desa</string>
+    <string name="B1R4_2">Kelurahan</string>
+    <string name="B1R5">5. Nomor Blok Sensus :</string>
+    <string name="B1R6">6. Nomor Kode Sampel :</string>
+    <string name="B1R7">7. Nomor Urut Rumah Tangga :</string>
+    <string name="B1R8">8. Nama Kepala Rumah Tangga :</string>
+    <string name="B1R9">9. Alamat Lengkap :</string>
+    <string name="B1R10">10. Hasil kunjungan ke rumah tangga :</string>
+
+    <!-- Pertanyaan Blok 2 -->
+    <string name="B2R1">Nama Kortim :</string>
+    <string name="B2R2">NIM Kortim :</string>
+
+    <!-- Pertanyaan Blok 3 -->
+    <string name="B3R1">1. Nama</string>
+    <string name="B3R2">Jenis Kelamin</string>
+    <string name="B3R3">Umur</string>
+    <string name="B3R4">Tempat lahir</string>
+    <string name="B3R5">Tempat tinggal 5 tahun yang lalu</string>
+    <string name="B3R6">Status perkawinan</string>
+    <string name="B3R7">Ijazah terakhir yang dimiliki</string>
+    <string name="B3R8S1">Apakah melakukan kegiatan seperti di bawah ini selama semnggu terakhir?</string>
+    <string name="B3R8S2">Kegiatan yang menggunakan waktu terbanyak selama seminggu terakhir</string>
+    <string name="B3R9">Apa lapangan usaha / bidang pekerjaan dari tempat bekerja selama seminggu terakhir</string>
+    <string name="B3R10">Status / kedudukan dalam pekerjaan utama selama seminggu terakhir</string>
+    <string name="B3R11">Status penguasaan bangunan tempat tinggal yang ditempati</string>
+    <string name="B3R12">Jenis atap terluas</string>
+    <string name="B3R13">Jenis dinding terluas</string>
+    <string name="B3R14">Jenis lantai terluas</string>
+    
+    <!-- Pertanyaan Blok 4 A -->
+    <!-- Blok 6a1 -->
+    <string name="B4R1">1. Suka membicarakan segala macam hal</string>
+    <string name="B4R2">2. Tidak pernah melakukan kesalahan</string>
+    <string name="B4R3">3. Selalu mengerjakan sesuatu dengan teliti</string>
+    <string name="B4R4">4. Mudah merasa sedih dan tertekan</string>
+    <string name="B4R5">5. Bisa menerima ide-ide baru</string>
+    <string name="B4R6">6. Tidak mudah membicarakan masalah pribadi dengan orang lain</string>
+    <string name="B4R8">8. Agak ceroboh</string>
+    <string name="B4R9">9. Tidak mudah stres</string>
+    <string name="B4R10">10. Suka mencari tahu tentang banyak hal </string>
+    <string name="B4R11">11. Penuh dengan semangat</string>
+    <string name="B4R12">12. Memulai perselisihan dengan orang lain</string>
+    <string name="B4R13">13. Bisa diandalkan</string>
+    <string name="B4R14">14. Mudah marah</string>
+    <string name="B4R15">15. Berbakat dan suka berpikir secara mendalam</string>
+    <!-- End -->
+
+    <!-- Blok 6a2 -->
+    <string name="B4R16">16. Membuat orang lain bersemangat</string>
+    <string name="B4R17">17. Pemaaf</string>
+    <string name="B4R18">18. Melakukan sesuatu tanpa rencana</string>
+    <string name="B4R19">19. Khawatir berlebihan</string>
+    <string name="B4R20">20. Bisa menciptakan ide-ide baru</string>
+    <string name="B4R21">21. Mudah panik</string>
+    <string name="B4R22">22. Mudah percaya dengan orang lain</string>
+    <string name="B4R23">23. Cenderung bermalas-malasan</string>
+    <string name="B4R24">24. Tidak mudah kesal</string>
+    <string name="B4R25">25. Suka menciptakan sesuatu yang baru</string>
+    <string name="B4R26">26. Tegas</string>
+    <string name="B4R27">27. Tidak peduli dengan lingkungan sekitar</string>
+    <string name="B4R28">28. Tekun mengerjakan pekerjaan sampai selesai</string>
+    <string name="B4R29">29. Mudah berubah suasana hatinya</string>
+    <!-- End -->
+
+    <!-- Blok 6a3 -->
+
+    <string name="B4R30">30. Menghargai hasil karya orang lain</string>
+    <string name="B4R31">31. Cenderung malu menanyakan sesuatu yang ingin saya ketahui</string>
+    <string name="B4R32">32. Perhatian dan bersikap baik hampir ke semua orang</string>
+    <string name="B4R33">33. Melakukan sesuatu dengan tepat dan cermat (efisien)</string>
+    <string name="B4R34">34. Tetap tenang dalam keadaan segenting apapun</string>
+    <string name="B4R35">35. Lebih menyukai sesuatu yang bersifat rutin</string>
+    <string name="B4R36">36. Ramah dan mudah akrab</string>
+    <string name="B4R37">37. Kadang-kadang bersikap kasar kepada orang lain</string>
+    <string name="B4R38">38. Menjalankan kegiatan yang sudah saya rencanakan</string>
+    <string name="B4R39">39. Mudah gugup</string>
+    <string name="B4R40">40. Mau mengoreksi perbuatan diri sendiri</string>
+    <string name="B4R41">41. Menghargai seni</string>
+    <string name="B4R42">42. Suka bekerja sama dengan orang lain</string>
+    <string name="B4R43">43. Sulit berkonsentrasi</string>
+    <!-- End -->
+
+    <!-- Pertanyaan Blok4D -->
+    <string name="b4r74">74. Saya suka menjadi penduduk Indonesia</string>
+    <string name="b4r75">75. Saya suka dengan Negara Indonesia</string>
+    <string name="b4r76">76. Saya suka dengan bahasa Indonesia</string>
+    <string name="b4r77">77. Saya menghargai setiap budaya (tarian, makanan, lagu, dll.) yang ada di Indonesia</string>
+    <string name="b4r78">78. Saya bangga menjadi penduduk Indonesia</string>
+    <string name="b4r79">79. Saya bangga dengan orang-orang Indonesia</string>
+    <string name="b4r80">80. Saya bangga dengan Negara Indonesia</string>
+    <string name="b4r81">81. Saya bangga memakai produk Indonesia</string>
+    <string name="b4r82">82. Saya lebih menyukai orang Indonesia dibanding orang dari Negara lain</string>
+    <string name="b4r83">83. Saya lebih memilih orang Indonesia daripada orang dari Negara lain</string>
+    <string name="b4r84">84. Jika ada kesempatan untuk berpindah kewarganegaraan, saya akan tetap memilih kewarganegaraan Indonesia</string>
+    <string name="b4r85">85. Saya lebih memilih tinggal di Indonesia daripada Negara lain</string>
+    <string name="b4r86">86. Saya merasa orang-orang Indonesia lebih baik dari orang - orang Negara lain</string>
+    <string name="b4r87">87. Saya merasa Negara Indonesia adalah yang terbaik dibanding orang-orang Negara lainnya</string>
+    <string name="b4r88">88. Saya merasa Negara Indonesia adalah yang terbaik dibanding Negara lainnya</string>
+    <string name="b4r89">89. Saya merasa kebangsaan Indonesia adalah yang terbaik</string>
+    <string name="b4r90">90. Saya ingin semua orang Indonesia menetap di Indonesia</string>
+    <string name="b4r91">91. Saya ingin orang Indonesia tidak terpengaruh budaya bangsa lain</string>
+    <string name="b4r92">92. Saya ingin hasil bumi Indonesia dinikmati oleh bangsa Indonesia sendiri</string>
+    <string name="b4r93">93. TKI ilegal tidak perlu mendapatkan perlindungan dari pemerintah Indonesia</string>
+    <string name="b4r94">94. Saya tidak ingin Indonesia bekerjasama dengan Negara lain</string>
+    <string name="b4r95">95. Saya marah jika budaya Indonesia diakui sebagai budaya Negara lain</string>
+    <string name="b4r96">96. Saya malu menjadi orang Indonesia</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_blok3_fragment">Blok3Fragment</string>
+    <string name="title_activity_household">HouseholdActivity</string>
+    <string name="title_activity_questionnaire_household">QuestionnaireHouseholdActivity</string>
+    <string name="title_activity_household_questionnaire">HouseholdQuestionnaire</string>
+
+    <string name="button_Next">Next</string>
+    <string name="title_activity_smsactivity_imp">SMSActivityImp</string>
+    <string name="title_activity_sms">SMSActivity</string>
+
+</resources>

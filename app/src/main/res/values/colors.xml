@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#03A9F4</color>
+    <color name="primaryDarkColor">#0288D1</color>
+    <color name="accentColor">#FFFFFF</color>
+    <color name="primaryTextColor">#FFFFFF</color>
+    <color name="secondaryTextColor">#FFFFFF</color>
+
+    <color name="primaryColorBlok2">#FF9800</color>
+
+    <color name="primaryColorBlok3">#FF5722</color>
+
+    <color name="primary">#3f51b5</color>
+    <color name="primary_pressed">#303f9f</color>
+    <color name="ripple">#ff80ab</color>
+    <color name="accent">#ff4081</color>
+    <color name="accent_pressed">#f50057</color>
+    <color name="white_color">#ffffff</color>
+</resources>

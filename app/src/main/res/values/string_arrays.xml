@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- List Kabupaten -->
+    <string-array name="kabupaten">
+        <item>-- Pilih item --</item>
+        <item>Bandung</item>
+        <item>Indramayu</item>
+    </string-array>
+
+    <!--List Kecamatan Kota Bandung-->
+    <string-array name="kota_bandung">
+        <item>-- Pilih item --</item>
+        <item>Andir</item>
+        <item>Antapani</item>
+        <item>Arcamanik</item>
+        <item>Astanaanyar</item>
+        <item>Babakanciparay</item>
+        <item>Bandung Kidul</item>
+        <item>Bandung Kulon</item>
+        <item>Bandung Wetan</item>
+        <item>Batununggal</item>
+        <item>Bojongloa Kaler</item>
+        <item>Bojongloa Kidul</item>
+        <item>Buahbatu</item>
+        <item>Cibeunying Kaler</item>
+        <item>Cibeunying Kidul</item>
+        <item>Cibiru</item>
+        <item>Cicendo</item>
+        <item>Cidadap</item>
+        <item>Cinambo</item>
+        <item>Coblong</item>
+        <item>Gedebage</item>
+        <item>Kiaracondong</item>
+        <item>Lengkong</item>
+        <item>Mandalajati</item>
+        <item>Panyileukan</item>
+        <item>Rancasari</item>
+        <item>Regol</item>
+        <item>Sukajadi</item>
+        <item>Sukasari</item>
+        <item>Sumurbandung</item>
+        <item>Ujungberung</item>
+    </string-array>
+
+    <!-- List Kecamatan Kabupaten Bandung -->
+    <string-array name="kabupaten_bandung">
+        <item>-- Pilih item --</item>
+        <item>Arjasari</item>
+        <item>Baleendah</item>
+        <item>Banjaran</item>
+        <item>Bojongsoang</item>
+        <item>Cangkuang</item>
+        <item>Cicalengka</item>
+        <item>Cikancung</item>
+        <item>Cilengkrang</item>
+        <item>Cileunyi</item>
+        <item>Cimaung</item>
+        <item>Cimenyan</item>
+        <item>Ciparay</item>
+        <item>Ciwidey</item>
+        <item>Dayeuhkolot</item>
+        <item>Ibun</item>
+        <item>Katapang</item>
+        <item>Kertasari</item>
+        <item>Kutawaringin</item>
+        <item>Majalaya</item>
+        <item>Margaasih</item>
+        <item>Margahayu</item>
+        <item>Nagreg</item>
+        <item>Pacet</item>
+        <item>Pameungpeuk</item>
+        <item>Pangalengan</item>
+        <item>Paseh</item>
+        <item>Pasirjambu</item>
+        <item>Rancabali</item>
+        <item>Rancaekek</item>
+        <item>Solokan Jeruk</item>
+        <item>Soreang</item>
+    </string-array>
+
+    <!-- List Kecamatan Kabupaten Indramayu -->
+    <string-array name="kabupaten_indramayu">
+        <item>-- Pilih item --</item>
+        <item>Anjatan</item>
+        <item>Arahan</item>
+        <item>Balongan</item>
+        <item>Bangodua</item>
+        <item>Bongas</item>
+        <item>Cantigi</item>
+        <item>Cikedung</item>
+        <item>Gabuswetan</item>
+        <item>Gantar</item>
+        <item>Hausgeulis</item>
+        <item>Indramayu</item>
+        <item>Jatibarang</item>
+        <item>Juntinyuat</item>
+        <item>Kandanghaur</item>
+        <item>Karangampel</item>
+        <item>Kedokan Bunder</item>
+        <item>Kertasemaya</item>
+        <item>Krangkeng</item>
+        <item>Kroya</item>
+        <item>Lelea</item>
+        <item>Lohbener</item>
+        <item>Losarang</item>
+        <item>Pasekan</item>
+        <item>Patrol</item>
+        <item>Sindang</item>
+        <item>Sliyeg</item>
+        <item>Sukagumiwang</item>
+        <item>Sukra</item>
+        <item>Terisi</item>
+        <item>Tukdana</item>
+        <item>Widasari</item>
+    </string-array>
+
+
+
+    <!--List DESA/KELURAHAN Kabupaten Indramayu-->
+
+    <!-- List Desa/Kelurahan Kecamatan Anjatan -->
+    <string-array name="kecamatan_anjatan">
+        <item>-- Pilih item --</item>
+        <item>Anjatan</item>
+        <item>Anjatan Baru</item>
+        <item>Anjatan Utara</item>
+        <item>Bugis</item>
+        <item>Bugistua</item>
+        <item>Cilandak</item>
+        <item>Cilandak Lor</item>
+        <item>Kedungwungu</item>
+        <item>Kopyah</item>
+        <item>Lempuyang</item>
+        <item>Mangunjaya</item>
+        <item>Salamdarma</item>
+        <item>Wanguk</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan Arahan -->
+    <string-array name="kecamatan_arahan">
+        <item>-- Pilih item --</item>
+        <item>Arahan Kidul</item>
+        <item>Arahan Lor</item>
+        <item>Cidempet</item>
+        <item>Linggajati</item>
+        <item>Pranggong</item>
+        <item>Sukadadi</item>
+        <item>Sukasari</item>
+        <item>Tawangsari</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan Balongan -->
+    <string-array name="kecamatan_balongan">
+        <item>-- Pilih item --</item>
+        <item>Balongan</item>
+        <item>Rawadalem</item>
+        <item>Sukareja</item>
+        <item>Sukaurip</item>
+        <item>Tegalurung</item>
+        <item>Gelarmendala</item>
+        <item>Majakerta</item>
+        <item>Sudimampir</item>
+        <item>Sudimampirlor</item>
+        <item>Tegalsembadra</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan Bangodua -->
+    <string-array name="kecamatan_bangodua">
+        <item>-- Pilih item --</item>
+        <item>Bangodua</item>
+        <item>Beduyut</item>
+        <item>Karanggetas</item>
+        <item>Malangsari</item>
+        <item>Mulyasari</item>
+        <item>Rancasari</item>
+        <item>Tegalgirang</item>
+        <item>Wanasari</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan Bongas -->
+    <string-array name="kecamatan_bongas">
+        <item>-- Pilih item --</item>
+        <item>Bongas</item>
+        <item>Cipaat</item>
+        <item>Cipedang</item>
+        <item>Kertajaya</item>
+        <item>Kertamulya</item>
+        <item>Margamulya</item>
+        <item>Plawangan</item>
+        <item>Sidamulya</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan Cantigi -->
+    <string-array name="kecamatan_cantigi">
+        <item>-- Pilih item --</item>
+        <item>Cangkring</item>
+        <item>Cantigi Wetan</item>
+        <item>Cantigi Kulon</item>
+        <item>Lamarantarung</item>
+        <item>Panyingkiran Kidul</item>
+        <item>Panyingkiran Lor</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan Cikedung -->
+    <string-array name="kecamatan_cikedung">
+        <item>-- Pilih item --</item>
+        <item>Amis</item>
+        <item>Cikedung</item>
+        <item>Cikedung Lor</item>
+        <item>Jambak</item>
+        <item>Jatisura</item>
+        <item>Loyang</item>
+        <item>Mundakjaya</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan Gabuswetan -->
+    <string-array name="kecamatan_gabuswetan">
+        <item>-- Pilih item --</item>
+        <item>Babakanjaya</item>
+        <item>Drunten Kulon</item>
+        <item>Drunten Wetan</item>
+        <item>Gabuskulon</item>
+        <item>Gabuswetan</item>
+        <item>Kedokangabus</item>
+        <item>Kedungdawa</item>
+        <item>Rancahan</item>
+        <item>Rancamulya</item>
+        <item>Sekarmulya</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan Gantar -->
+    <string-array name="kecamatan_gantar">
+        <item>-- Pilih item --</item>
+        <item>Baleraja</item>
+        <item>Bantarwaru</item>
+        <item>Gantar</item>
+        <item>Mekarjaya</item>
+        <item>Sanca</item>
+        <item>Situraja</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan Hausgeulis-->
+    <string-array name="kecamatan_hausgeulis">
+        <item>-- Pilih item --</item>
+        <item>Cipancuh</item>
+        <item>Haurgeulis</item>
+        <item>Haurkolot</item>
+        <item>Karangtumaritis</item>
+        <item>Kertanegara</item>
+        <item>Mekarjati</item>
+        <item>Sidadadi</item>
+        <item>Sukajati</item>
+        <item>Sumbermulya</item>
+        <item>Wanakaya</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan Indramayu  -->
+    <string-array name="kecamatan_indramayu">
+        <item>-- Pilih item --</item>
+        <item>Margadadi</item>
+        <item>Paoman</item>
+        <item>Pekandangan Jaya</item>
+        <item>Lemahabang</item>
+        <item>Lemahmekar</item>
+        <item>Karanganyar</item>
+        <item>Karangmalang</item>
+        <item>Bojongsari</item>
+        <item>Kepandean</item>
+        <item>Dukuh</item>
+        <item>Plumbon</item>
+        <item>Telukagung</item>
+        <item>Pekandangan</item>
+        <item>Singajaya</item>
+        <item>Singaraja</item>
+        <item>Karangsong</item>
+        <item>Pabeanudik</item>
+        <item>Tambak</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan  Jatibarang-->
+    <string-array name="kecamatan_jatibarang">
+        <item>-- Pilih item --</item>
+        <item>Bulak</item>
+        <item>Bulak Lor</item>
+        <item>Jatibarang</item>
+        <item>Jatibarang Baru</item>
+        <item>Jatisawit</item>
+        <item>Jatisawit Lor</item>
+        <item>Kalimati</item>
+        <item>Kebulen</item>
+        <item>Krasak</item>
+        <item>Lobener</item>
+        <item>Lobener Lor</item>
+        <item>Malangsemirang</item>
+        <item>Pawidean</item>
+        <item>Pilangsari</item>
+        <item>Sukalila</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan  Juntinyuat-->
+    <string-array name="kecamatan_juntinyuat">
+        <item>-- Pilih item --</item>
+        <item>Dadap</item>
+        <item>Junti Kebon</item>
+        <item>Juntikedokan</item>
+        <item>Juntinyuat</item>
+        <item>Juntiweden</item>
+        <item>Limbangan</item>
+        <item>Lombang</item>
+        <item>Pondoh</item>
+        <item>Sambimaya</item>
+        <item>Segeran</item>
+        <item>Segeran Kidul</item>
+        <item>Tinumpuk</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan  Kandanghaur-->
+    <string-array name="kecamatan_kandanghaur">
+        <item>-- Pilih item --</item>
+        <item>Karanganyar</item>
+        <item>Bulak</item>
+        <item>Curug</item>
+        <item>Eretan Kulon</item>
+        <item>Eretan Wetan</item>
+        <item>Ilir</item>
+        <item>Karangmulya</item>
+        <item>Kertawinangun</item>
+        <item>Parean Girang</item>
+        <item>Pranti</item>
+        <item>Soge</item>
+        <item>Wirakanan</item>
+        <item>Wirapanjunan</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan Karangampel -->
+    <string-array name="kecamatan_karangampel">
+        <item>-- Pilih item --</item>
+        <item>Benda</item>
+        <item>Dukuhjeruk</item>
+        <item>Dukuhtengah</item>
+        <item>Kaplonganlor</item>
+        <item>Karangampel</item>
+        <item>Karangampel Kidul</item>
+        <item>Mundu</item>
+        <item>Pringgacala</item>
+        <item>Sendang</item>
+        <item>Tanjungpura</item>
+        <item>Tanjungsari</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan Kedokan Bunder -->
+    <string-array name="kecamatan_kedokanbunder">
+        <item>-- Pilih item --</item>
+        <item>Cangkingan</item>
+        <item>Jayalaksana</item>
+        <item>Jayawinangun</item>
+        <item>Kaplongan</item>
+        <item>Kedokan Agung</item>
+        <item>Kedokanbunder</item>
+        <item>Kedokanbunder Wetan</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan Kertasemaya -->
+    <string-array name="kecamatan_kertasemaya">
+        <item>-- Pilih item --</item>
+        <item>Jambe</item>
+        <item>Jengkok</item>
+        <item>Kertasemaya</item>
+        <item>Kliwed</item>
+        <item>Laranganjambe</item>
+        <item>Lemahayu</item>
+        <item>Manguntara</item>
+        <item>Sukawera</item>
+        <item>Tegalwirangrong</item>
+        <item>Tenajar</item>
+        <item>Tenajar Kidul</item>
+        <item>Tenajar Lor</item>
+        <item>Tulungagung</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan  Krangkeng-->
+    <string-array name="kecamatan_krangkeng">
+        <item>-- Pilih item --</item>
+        <item>Dukuhjati</item>
+        <item>Kalianyar</item>
+        <item>Kapringan</item>
+        <item>Kedungwungu</item>
+        <item>Krangkeng</item>
+        <item>Luwunggesik</item>
+        <item>Purwajaya</item>
+        <item>Singakerta</item>
+        <item>Srengseng</item>
+        <item>Tanjakan</item>
+        <item>Tegalmulya</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan Kroya -->
+    <string-array name="kecamatan_kroya">
+        <item>-- Pilih item --</item>
+        <item>Jayamulya</item>
+        <item>Kroya</item>
+        <item>Sukamelang</item>
+        <item>Sukaslamet</item>
+        <item>Sumbon</item>
+        <item>Tanjungkerta</item>
+        <item>Temiyang</item>
+        <item>Temiyangsari</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan  Lelea-->
+    <string-array name="kecamatan_lelea">
+        <item>-- Pilih item --</item>
+        <item>Cempeh</item>
+        <item>Langgengsari</item>
+        <item>Lelea</item>
+        <item>Nunuk</item>
+        <item>Pangauban</item>
+        <item>Tamansari</item>
+        <item>Telagasari</item>
+        <item>Tempel</item>
+        <item>Tempelkulon</item>
+        <item>Tugu</item>
+        <item>Tunggulpayung</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan  Lohbener-->
+    <string-array name="kecamatan_lohbener">
+        <item>-- Pilih item --</item>
+        <item>Bojongslawi</item>
+        <item>Kiajaran Kulon</item>
+        <item>Kiajaran Wetan</item>
+        <item>Langut</item>
+        <item>Lanjan</item>
+        <item>Larangan</item>
+        <item>Legok</item>
+        <item>Lohbener</item>
+        <item>Pamayahan</item>
+        <item>Rambatan Kulon</item>
+        <item>Sindangkerta</item>
+        <item>Waru</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan  Losarang-->
+    <string-array name="kecamatan_losarang">
+        <item>-- Pilih item --</item>
+        <item>Cemara</item>
+        <item>Jangga</item>
+        <item>Jumbleng</item>
+        <item>Krimun</item>
+        <item>Losarang</item>
+        <item>Muntur</item>
+        <item>Pangkalan</item>
+        <item>Pegagan</item>
+        <item>Puntang</item>
+        <item>Rajaiyang</item>
+        <item>Ranjeng</item>
+        <item>Santing</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan Pasekan -->
+    <string-array name="kecamatan_pasekan">
+        <item>-- Pilih item --</item>
+        <item>Karanganyar</item>
+        <item>Brondong</item>
+        <item>Pabeanilir</item>
+        <item>Pagirikan</item>
+        <item>Pasekan</item>
+        <item>Totoran</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan  Patrol-->
+    <string-array name="kecamatan_patrol">
+        <item>-- Pilih item --</item>
+        <item>Arjasari</item>
+        <item>Bugel</item>
+        <item>Limpas</item>
+        <item>Mekarsari</item>
+        <item>Patrol</item>
+        <item>Patrol Baru</item>
+        <item>Patrollor</item>
+        <item>Sukahaji</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan  Sindang-->
+    <string-array name="kecamatan_sindang">
+        <item>-- Pilih item --</item>
+        <item>Penganjang</item>
+        <item>Rambatan Wetan</item>
+        <item>Sindang</item>
+        <item>Dermayu</item>
+        <item>Terusan</item>
+        <item>Panyindangan Kulon</item>
+        <item>Panyindangan Wetan</item>
+        <item>Kenanga</item>
+        <item>Babadan</item>
+        <item>Wanantara</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan  Sliyeg-->
+    <string-array name="kecamatan_sliyeg">
+        <item>-- Pilih item --</item>
+        <item>Gadingan</item>
+        <item>Longok</item>
+        <item>Majasari</item>
+        <item>Majasih</item>
+        <item>Mekargading</item>
+        <item>Sleman</item>
+        <item>Sleman Lor</item>
+        <item>Sliyeg</item>
+        <item>Sliyeglor</item>
+        <item>Sudikampiran</item>
+        <item>Tambi</item>
+        <item>Tambi Lor</item>
+        <item>Tugu</item>
+        <item>Tugu Kidul</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan Sukagumiwang -->
+    <string-array name="kecamatan_sukagumiwang">
+        <item>-- Pilih item --</item>
+        <item>Bondan</item>
+        <item>Cadangpinggan</item>
+        <item>Cibeber</item>
+        <item>Gunungsari</item>
+        <item>Sukagumiwang</item>
+        <item>Tersana</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan Sukra -->
+    <string-array name="kecamatan_sukra">
+        <item>-- Pilih item --</item>
+        <item>Bogor</item>
+        <item>Karang Layung</item>
+        <item>Sukra</item>
+        <item>Sukrawetan</item>
+        <item>Sumuradem</item>
+        <item>Sumuradem Timur</item>
+        <item>Tegaltaman</item>
+        <item>Ujunggebang</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan  Terisi-->
+    <string-array name="kecamatan_terisi">
+        <item>-- Pilih item --</item>
+        <item>Cibereng</item>
+        <item>Cikawung</item>
+        <item>Jatimulya</item>
+        <item>Jatimunggul</item>
+        <item>Karangasem</item>
+        <item>Kendayakan</item>
+        <item>Manggungan</item>
+        <item>Plosokerep</item>
+        <item>Rajasinga</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan Tukdana -->
+    <string-array name="kecamatan_tukdana">
+        <item>-- Pilih item --</item>
+        <item>Bodas</item>
+        <item>Cangko</item>
+        <item>Gadel</item>
+        <item>Karangkerta</item>
+        <item>Kerticala</item>
+        <item>Lajer</item>
+        <item>Mekarsari</item>
+        <item>Pagedangan</item>
+        <item>Rancajawat</item>
+        <item>Sukadana</item>
+        <item>Sukamulya</item>
+        <item>Sukaperna</item>
+        <item>Tukdana</item>
+    </string-array>
+
+    <!-- List Desa/Kelurahan Kecamatan  Widasari-->
+    <string-array name="kecamatan_widasari">
+        <item>-- Pilih item --</item>
+        <item>Bangkaloa Ilir</item>
+        <item>Bunder</item>
+        <item>Kalensari</item>
+        <item>Kasmaran</item>
+        <item>Kongsijaya</item>
+        <item>Leuwigede</item>
+        <item>Ujungaris</item>
+        <item>Ujungjaya</item>
+        <item>Ujungpendokjaya</item>
+        <item>Widasari</item>
+    </string-array>
+
+
+
+    <!--List Desa/Kelurahan Kota Bandung-->
+
+    <!--Desa/kelurahan ANDIR-->
+    <string-array name="kecamatan_andir">
+        <item>-- Pilih item --</item>
+        <item>Campaka</item>
+        <item>Ciroyom</item>
+        <item>Dunguscariang</item>
+        <item>Garuda</item>
+        <item>Kebonjeruk</item>
+        <item>Maleber</item>
+    </string-array>
+
+    <!--Desa/kelurahan ANTAPANI-->
+    <string-array name="kecamatan_antapani">
+        <item>-- Pilih item --</item>
+        <item>Antapani Kidul</item>
+        <item>Antapani Kulon</item>
+        <item>Antapani Tengah</item>
+        <item>Antapani Wetan</item>
+    </string-array>
+
+    <!--Desa/kelurahan ARCAMANIK-->
+    <string-array name="kecamatan_arcamanik">
+        <item>-- Pilih item --</item>
+        <item>Cisaranten Endah</item>
+        <item>Cisaranten Kulon</item>
+        <item>Cisaranten Bina Harapan</item>
+        <item>Sindangjaya</item>
+        <item>Sukamiskin</item>
+    </string-array>
+
+    <!--Desa/kelurahan ASTANAANYAR-->
+    <string-array name="kecamatan_astanaanyar">
+        <item>-- Pilih item --</item>
+        <item>Cibadak</item>
+        <item>Karanganyar</item>
+        <item>Karasak</item>
+        <item>Nyengseret</item>
+        <item>Panjunan</item>
+        <item>Pelindunghewan</item>
+    </string-array>
+
+    <!--Desa/kelurahan BABAKANCIPARAY-->
+    <string-array name="kecamatan_babakanciparay">
+        <item>-- Pilih item --</item>
+        <item>Babakan</item>
+        <item>Babakanciparay</item>
+        <item>Cirangrang</item>
+        <item>Margahayu Utara</item>
+        <item>Margasuka</item>
+        <item>Sukahaji</item>
+    </string-array>
+
+    <!--Desa/kelurahan BANDUNG KIDUL-->
+    <string-array name="kecamatan_bandungkidul">
+        <item>-- Pilih item --</item>
+        <item>Batununggal</item>
+        <item>Mengger</item>
+        <item>Wates</item>
+    </string-array>
+
+    <!--Desa/kelurahan BANDUNG KULON-->
+    <string-array name="kecamatan_bandungkulon">
+        <item>-- Pilih item --</item>
+        <item>Caringin</item>
+        <item>Cibuntu</item>
+        <item>Cigondewah</item>
+        <item>Cigondewah Kidul</item>
+        <item>Cigondewah Rahayu</item>
+        <item>Cijerah</item>
+        <item>Gempolsari</item>
+        <item>Warungmuncang</item>
+    </string-array>
+
+    <!--Desa/kelurahan BANDUNG WETAN-->
+    <string-array name="kecamatan_bandungwetan">
+        <item>-- Pilih item --</item>
+        <item>Cihapit</item>
+        <item>Citarum</item>
+        <item>Tamansari</item>
+    </string-array>
+
+    <!--Desa/kelurahan BATUNUNGGAL-->
+    <string-array name="kecamatan_batununggal">
+        <item>-- Pilih item --</item>
+        <item>Binong</item>
+        <item>Cibangkong</item>
+        <item>Gumuruh</item>
+        <item>Kacapiring</item>
+        <item>Kebongedang</item>
+        <item>Kebonwaru</item>
+        <item>Maleer</item>
+        <item>Samoja</item>
+    </string-array>
+
+    <!--Desa/kelurahan BOJONGLOA KALER-->
+    <string-array name="kecamatan_bojongloakaler">
+        <item>-- Pilih item --</item>
+        <item>Babakan Asih</item>
+        <item>Babakan Tarogong</item>
+        <item>Jamika</item>
+        <item>Kopo</item>
+        <item>Suka Asih</item>
+    </string-array>
+
+    <!--Desa/kelurahan BOJONGLOA KIDUL-->
+    <string-array name="kecamatan_bojongloakidul">
+        <item>-- Pilih item --</item>
+        <item>Cibaduyut</item>
+        <item>Cibaduyut Kidul</item>
+        <item>Cibaduyut Wetan</item>
+        <item>Kebon Lega</item>
+        <item>Mekarwangi</item>
+        <item>Situsaeur</item>
+    </string-array>
+
+    <!--Desa/kelurahan BUAHBATU-->
+    <string-array name="kecamatan_buahbatu">
+        <item>-- Pilih item --</item>
+        <item>Cijawura</item>
+        <item>Jatisari</item>
+        <item>Margasari</item>
+        <item>Sekejati</item>
+    </string-array>
+
+    <!--Desa/kelurahan CIBEUNYING KALER-->
+    <string-array name="kecamatan_cibeunyingkaler">
+        <item>-- Pilih item --</item>
+        <item>Cigadung</item>
+        <item>Cihaurgeulis</item>
+        <item>Neglasari</item>
+        <item>Sukaluyu</item>
+    </string-array>
+
+    <!--Desa/kelurahan CIBEUNYING KIDUL-->
+    <string-array name="kecamatan_cibeunyingkidul">
+        <item>-- Pilih item --</item>
+        <item>Cicadas</item>
+        <item>Cikutra</item>
+        <item>Padasuka</item>
+        <item>Pasirlayung</item>
+        <item>Sukamaju</item>
+        <item>Sukapada</item>
+    </string-array>
+
+    <!--Desa/kelurahan CIBIRU-->
+    <string-array name="kecamatan_cibiru">
+        <item>-- Pilih item --</item>
+        <item>Cipadung</item>
+        <item>Cisurupan</item>
+        <item>Palasari</item>
+        <item>Pasirbiru</item>
+    </string-array>
+
+    <!--Desa/kelurahan CICENDO-->
+    <string-array name="kecamatan_cicendo">
+        <item>-- Pilih item --</item>
+        <item>Arjuna</item>
+        <item>Husen Sastranegara</item>
+        <item>Pajajaran</item>
+        <item>Arjuna</item>
+        <item>Pasirkaliki</item>
+        <item>Sukaraju</item>
+    </string-array>
+
+    <!--Desa/kelurahan CIDADAP -->
+    <string-array name="kecamatan_cidadap">
+        <item>-- Pilih item --</item>
+        <item>Ciumbuleuit</item>
+        <item>Hegarmanah</item>
+        <item>Ledeng</item>
+    </string-array>
+
+    <!--Desa/kelurahan CINAMBO-->
+    <string-array name="kecamatan_cinambo">
+        <item>-- Pilih item --</item>
+        <item>Babakan Penghulu</item>
+        <item>Cisarentan Wetan</item>
+        <item>Pakemitan</item>
+        <item>Sukamulya</item>
+    </string-array>
+
+    <!--Desa/kelurahan COBLONG-->
+    <string-array name="kecamatan_coblong">
+        <item>-- Pilih item --</item>
+        <item>Cipaganti</item>
+        <item>Dago</item>
+        <item>Lebakgede</item>
+        <item>Lebaksiliwangi</item>
+        <item>Sadangserang</item>
+        <item>Sekeloa</item>
+    </string-array>
+
+    <!--Desa/kelurahan GEDEBAGE-->
+    <string-array name="kecamatan_gedebage">
+        <item>-- Pilih item --</item>
+        <item>Cimincrang</item>
+        <item>Cisaranten</item>
+        <item>Rancabolang</item>
+        <item>Rancanumpang</item>
+    </string-array>
+
+    <!--Desa/kelurahan KIARACONDONG-->
+    <string-array name="kecamatan_kiaracondong">
+        <item>-- Pilih item --</item>
+        <item>Babakansari</item>
+        <item>Babakansurabaya</item>
+        <item>Cicaheum</item>
+        <item>Kebonkangkung</item>
+        <item>Kebunjayanti</item>
+        <item>Sukapura</item>
+    </string-array>
+
+    <!--Desa/kelurahan LENGKONG-->
+    <string-array name="kecamatan_lengkong">
+        <item>-- Pilih item --</item>
+        <item>Burangrang</item>
+        <item>Cijagra</item>
+        <item>Cikawao</item>
+        <item>Lingkar Selatan</item>
+        <item>Malabar</item>
+        <item>Paledang</item>
+        <item>Turangga</item>
+    </string-array>
+
+    <!--Desa/kelurahan MANDALAJATI-->
+    <string-array name="kecamatan_mandalajati">
+        <item>-- Pilih item --</item>
+        <item>Jatihandap</item>
+        <item>Karangpamulang</item>
+        <item>Jatihandap</item>
+        <item>Sindangjaya</item>
+    </string-array>
+
+    <!--Desa/kelurahan PANYILEUKAN-->
+    <string-array name="kecamatan_panyileukan">
+        <item>-- Pilih item --</item>
+        <item>Cipadung Kidul</item>
+        <item>Cipadung Kulon</item>
+        <item>Cipadung Wetan</item>
+        <item>Mekarmulya</item>
+    </string-array>
+
+    <!--Desa/kelurahan RANCASARI-->
+    <string-array name="kecamatan_rancasari">
+        <item>-- Pilih item --</item>
+        <item>Cipamokolan</item>
+        <item>Darwati</item>
+        <item>Manjahlega</item>
+        <item>Mekarmulya</item>
+    </string-array>
+
+    <!--Desa/kelurahan REGOL-->
+    <string-array name="kecamatan_regol">
+        <item>-- Pilih item --</item>
+        <item>Ancol</item>
+        <item>Balonggede</item>
+        <item>Ciateul</item>
+        <item>Cigareleng</item>
+        <item>Ciseureuh</item>
+        <item>Pasirluyu</item>
+        <item>Pungkur</item>
+    </string-array>
+
+    <!--Desa/kelurahan SUKAJADI-->
+    <string-array name="kecamatan_sukajadi">
+        <item>-- Pilih item --</item>
+        <item>Cipedes</item>
+        <item>Pasteur</item>
+        <item>Sukabungah</item>
+        <item>Sukagalih</item>
+        <item>Sukawarna</item>
+    </string-array>
+
+    <!--Desa/kelurahan SUKASARI-->
+    <string-array name="kecamatan_sukasari">
+        <item>-- Pilih item --</item>
+        <item>Gegerkalong</item>
+        <item>Isola</item>
+        <item>Sarijadi</item>
+        <item>Sukarasa</item>
+    </string-array>
+
+    <!--Desa/kelurahan SUMURBANDUNG-->
+    <string-array name="kecamatan_sumurbandung">
+        <item>-- Pilih item --</item>
+        <item>Babakanciamis</item>
+        <item>Braga</item>
+        <item>Kebonpisang</item>
+        <item>Merdeka</item>
+    </string-array>
+
+    <!--Desa/kelurahan UJUNGBERUNG-->
+    <string-array name="kecamatan_ujungberung">
+        <item>-- Pilih item --</item>
+        <item>Cigending</item>
+        <item>Pasanggrahan</item>
+        <item>Pasirendah</item>
+        <item>Pasirjati</item>
+        <item>Pasirwangi</item>
+        <item>Ujungberung</item>
+    </string-array>
+
+    <!-- Pilihan Jawaban B1R9 -->
+    <string-array name="B1R9">
+        <item>-- Pilih item --</item>
+        <item>Berhasil</item>
+        <item>Menolak diwawancarai</item>
+        <item>Tidak dapat diwawancarai</item>
+    </string-array>
+
+    <string-array name="b3r6_items">
+        <item>--Pilih status--</item>
+        <item>Belum kawin</item>
+        <item>Kawin</item>
+        <item>Cerai mati</item>
+        <item>Cerai hidup</item>
+    </string-array>
+
+    <string-array name="b3r7_items">
+        <item>--Pilih ijazah terakhir--</item>
+        <item>Tidak/belum pernah bersekolah</item>
+        <item>Tidak tamat SD/MI/SDLB/Paket A</item>
+        <item>SD/MI/SDLB/Paket A</item>
+        <item>SMP/MTs/SMPLB/Paket B</item>
+        <item>SMA/MA/SMK/SMALB/Paket C</item>
+        <item>Diploma I</item>
+        <item>Diploma II</item>
+        <item>Diploma III</item>
+        <item>Diploma IV</item>
+        <item>S2/S3</item>
+    </string-array>
+
+    <string-array name="b3r10_items">
+        <item>--Pilih status/kedudukan--</item>
+        <item>Berusaha dibantu buruh</item>
+        <item>Berusaha sendiri</item>
+        <item>Butuh karyawan/pegawai</item>
+        <item>Pekerja bebas</item>
+        <item>Pekerja keluarga/tidak dibayar</item>
+    </string-array>
+
+    <string-array name="b3r11_items">
+        <item>--Pilih status--</item>
+        <item>Milik sendiri</item>
+        <item>Kontrak</item>
+        <item>Sewa</item>
+        <item>Bebas sewa milik orang lain</item>
+        <item>Bebas sewa milik orang tua/sanak/saudara</item>
+        <item>Dinas</item>
+        <item>Lainnya</item>
+    </string-array>
+
+    <string-array name="b3r12_items">
+        <item>--Pilih jenis atap--</item>
+        <item>Beton</item>
+        <item>Genteng</item>
+        <item>Sirap</item>
+        <item>Seng</item>
+        <item>Asbes</item>
+        <item>Ijuk/rumbia</item>
+        <item>Lainnya</item>
+    </string-array>
+
+    <string-array name="b3r13_items">
+        <item>--Pilih jenis dinding--</item>
+        <item>Tembok</item>
+        <item>Kayu</item>
+        <item>Bambu</item>
+        <item>Lainnya</item>
+    </string-array>
+
+    <string-array name="b3r14_items">
+        <item>--Pilih jenis lantai--</item>
+        <item>Marmer/keramik/granit</item>
+        <item>Tegel/teraso</item>
+        <item>Semen</item>
+        <item>Kayu</item>
+        <item>Tanah</item>
+        <item>Lainnya</item>
+    </string-array>
+
+    <!-- Blok 4 -->
+    <string-array name="frekuensiKegiatan">
+        <item>-- Pilih item --</item>
+        <item>Tidak Pernah</item>
+        <item>Jarang</item>
+        <item>Sering</item>
+        <item>Selalu</item>
+    </string-array>
+
+    <string-array name="tingkatKesenangan">
+        <item>-- Pilih item --</item>
+        <item>Tidak Senang</item>
+        <item>Kurang Senang</item>
+        <item>Senang</item>
+        <item>Sangat Senang</item>
+    </string-array>
+
+    <string-array name="tingkatKesediaan">
+        <item>-- Pilih item --</item>
+        <item>Tidak Bersedia</item>
+        <item>Kurang Bersedia</item>
+        <item>Bersedia</item>
+        <item>Sangat Bersedia</item>
+    </string-array>
+
+</resources>

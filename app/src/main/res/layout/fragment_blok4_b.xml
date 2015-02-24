@@ -1,0 +1,543 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/b4r44_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r44_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r44_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="44. Seberapa sering Anda bertegur sapa ketika bertemu dengan orang sekitar?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <Spinner
+                android:id="@+id/b4r44_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/b4_enable_textfield" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b4r45_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r45_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r45_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="45. Seberapa sering Anda menyapa terlebih dahulu ketika bertemu dengan orang sekitar?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <Spinner
+                android:id="@+id/b4r45_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/b4_enable_textfield" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b4r46_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r46_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r46_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="46. Seberapa sering Anda membalas sapaan orang lain walaupun belum kenal dekat?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <Spinner
+                android:id="@+id/b4r46_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/b4_enable_textfield" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b4r47_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r47_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r47_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="47. Seberapa sering Anda menunjukkan rasa hormat (tersenyum, sopan) saat bertutur kata dengan orang lain?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <Spinner
+                android:id="@+id/b4r47_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/b4_enable_textfield" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b4r48_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r48_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r48_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="48. Seberapa sering Anda bersosialisasi atau bergaul dengan orang sekitar?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <Spinner
+                android:id="@+id/b4r48_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/b4_enable_textfield" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b4r49_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r49_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r49_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="49. Seberapa sering Anda berkomunikasi dengan teman dekat?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <Spinner
+                android:id="@+id/b4r49_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/b4_enable_textfield" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b4r50_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r50_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r50_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="50. Seberapa sering Anda mengikuti kegiatan bersama untuk membantu seseorang yang sedang mengalami musibah (seperti kematian, sakit, dll)?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <Spinner
+                android:id="@+id/b4r50_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/b4_enable_textfield" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b4r51_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r51_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r51_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="51. Seberapa sering Anda ikut serta dalam kegiatan kerja bakti di lingkungan sekitar?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <Spinner
+                android:id="@+id/b4r51_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/b4_enable_textfield" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b4r52_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r52_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r52_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="52. Seberapa sering Anda berbagi makanan kepada orang sekitar?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <Spinner
+                android:id="@+id/b4r52_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/b4_enable_textfield" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b4r53_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r53_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r53_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="53. Seberapa sering Anda memberi bantuan uang, barang, atau tenaga orang sekitar?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <Spinner
+                android:id="@+id/b4r53_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/b4_enable_textfield" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b4r54_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r54_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r54_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="54. Seberapa sering teman Anda memberi bantuan saat ada mengalami masalah?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <Spinner
+                android:id="@+id/b4r54_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/b4_enable_textfield" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b4r55_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r55_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r55_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="55. Seberapa sering Anda percaya menitipkan barang berharga (rumah atau barang berharga lainnya) kepada orang sekitar ketika bepergian?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <Spinner
+                android:id="@+id/b4r55_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/b4_enable_textfield" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b4r56_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b4_enable_layout"
+            android:clickable="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b4r56_relativelayout_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/b4r56_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="56. Seberapa sering Anda merasa aman ketika harus berjalan kaki sendirian di sekitaran tempat tinggal Anda saat malam hari?"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <Spinner
+                android:id="@+id/b4r56_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/b4_enable_textfield" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/b4_button_next"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/tombol_next"
+                android:padding="10dp"
+                android:text="Next"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

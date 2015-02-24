@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/b3r1_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/b3_enable_layout"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b3r1_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/b3r1_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="@string/B3R1"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/b3r1_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/b3_enable_textfield"
+
+                android:inputType="text|textCapWords"
+                android:padding="10dp"
+                android:textColor="#ffffff"></EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b3r2_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/b3_enable_layout"
+
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b3r2_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="@string/B3R2"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/b3r2_rg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <RadioButton
+                    android:id="@+id/b3r2_rb_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Laki-laki"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#ffffff" />
+
+                <RadioButton
+                    android:id="@+id/b3r2_rb_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Perempuan"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#ffffff" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b3r3_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/b3_enable_layout"
+
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b3r3_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="@string/B3R3"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/b3r3_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/b3_enable_textfield"
+
+                android:inputType="number"
+                android:maxLength="2"
+                android:padding="10dp"
+                android:textColor="#ffffff"></EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b3r4_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/b3_enable_layout"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b3r4_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="@string/B3R4"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/b3r4s1_tv"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="Provinsi / Negara"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+
+                    <EditText
+                        android:id="@+id/b3r4s1_et"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:background="@drawable/b3_enable_textfield"
+                        android:inputType="text|textAutoComplete|textCapWords"
+                        android:padding="10dp"
+                        android:textColor="#ffffff" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/b3r4s2_tv"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="Kabupaten / Kota"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+
+                    <EditText
+                        android:id="@+id/b3r4s2_et"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:background="@drawable/b3_enable_textfield"
+                        android:inputType="text|textAutoComplete|textCapWords"
+                        android:padding="10dp"
+                        android:textColor="#ffffff" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b3r5_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/b3_enable_layout"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b3r5_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="@string/B3R5"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/b3r5s1_tv"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="Provinsi / Negara"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+
+                    <EditText
+                        android:id="@+id/b3r5s1_et"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:background="@drawable/b3_enable_textfield"
+                        android:inputType="text|textAutoComplete|textCapWords"
+                        android:padding="10dp"
+                        android:textColor="#ffffff" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/b3r5s2_tv"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="Kabupaten / Kota"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+
+                    <EditText
+                        android:id="@+id/b3r5s2_et"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:background="@drawable/b3_enable_textfield"
+                        android:inputType="text|textAutoComplete|textCapWords"
+                        android:padding="10dp"
+                        android:textColor="#ffffff" />
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b3r6_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/b3_enable_layout"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b3r6_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="@string/B3R6"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/b3r6_sp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/abc_text_size_display_3_material"
+                android:background="@drawable/b3_enable_textfield"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b3r7_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/b3_enable_layout"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b3r7_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="@string/B3R7"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/b3r7_sp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/abc_text_size_display_3_material"
+                android:background="@drawable/b3_enable_textfield"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b3r8_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/b3_enable_layout"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b3r8_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="@string/B3R8S1"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="5dp"
+                        android:text="1. Bekerja"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+
+                    <RadioGroup
+                        android:id="@+id/b3r8s1d1_rg"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/b3r8s1d1_rb_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="5dp"
+                            android:text="Ya"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#ffffff" />
+
+                        <RadioButton
+                            android:id="@+id/b3r8s1d1_rb_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="5dp"
+                            android:text="Tidak"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#ffffff" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="5dp"
+                        android:text="2. Sekolah"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+
+                    <RadioGroup
+                        android:id="@+id/b3r8s1d2_rg"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/b3r8s1d2_rb_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="5dp"
+                            android:text="Ya"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#ffffff" />
+
+                        <RadioButton
+                            android:id="@+id/b3r8s1d2_rb_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="5dp"
+                            android:text="Tidak"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#ffffff" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="5dp"
+                        android:text="3. Mengurus Ruta"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+
+                    <RadioGroup
+                        android:id="@+id/b3r8s1d3_rg"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/b3r8s1d3_rb_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="5dp"
+                            android:text="Ya"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#ffffff" />
+
+                        <RadioButton
+                            android:id="@+id/b3r8s1d3_rb_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="5dp"
+                            android:text="Tidak"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#ffffff" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="5dp"
+                        android:text="4. Lainnya"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#ffffff" />
+
+                    <RadioGroup
+                        android:id="@+id/b3r8s1d4_rg"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/b3r8s1d4_rb_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="5dp"
+                            android:text="Ya"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#ffffff" />
+
+                        <RadioButton
+                            android:id="@+id/b3r8s1d4_rb_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingTop="5dp"
+                            android:text="Tidak"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#ffffff" />
+                    </RadioGroup>
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="@string/B3R8S2"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/b3r8s2_rg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/b3r8s2_rb_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:text="1"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#ffffff" />
+
+                <RadioButton
+                    android:id="@+id/b3r8s2_rb_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:text="2"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#ffffff" />
+
+                <RadioButton
+                    android:id="@+id/b3r8s2_rb_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:text="3"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#ffffff" />
+
+                <RadioButton
+                    android:id="@+id/b3r8s2_rb_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:text="4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#ffffff" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b3r9_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/b3_enable_layout"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b3r9_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="@string/B3R9"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/b3r9_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/b3_enable_textfield"
+                android:inputType="text|textCapSentences|textAutoComplete"
+                android:padding="10dp"
+                android:textColor="#ffffff"></EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b3r10_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/b3_enable_layout"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b3r10_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="@string/B3R10"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/b3r10_sp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/abc_text_size_display_3_material"
+                android:background="@drawable/b3_enable_textfield"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b3r11_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/b3_enable_layout"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b3r11_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="@string/B3R11"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/b3r11_sp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/abc_text_size_display_3_material"
+                android:background="@drawable/b3_enable_textfield"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b3r12_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/b3_enable_layout"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b3r12_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="@string/B3R12"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/b3r12_sp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/abc_text_size_display_3_material"
+                android:background="@drawable/b3_enable_textfield"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b3r13_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/b3_enable_layout"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b3r13_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="@string/B3R13"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/b3r13_sp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/abc_text_size_display_3_material"
+                android:background="@drawable/b3_enable_textfield"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/b3r14_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/b3_enable_layout"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/b3r14_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/check" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="10dp"
+                android:text="@string/B3R14"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/b3r14_sp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/abc_text_size_display_3_material"
+                android:background="@drawable/b3_enable_textfield"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b3_button_next"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/tombol_next"
+                android:padding="10dp"
+                android:text="LANJUT"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
